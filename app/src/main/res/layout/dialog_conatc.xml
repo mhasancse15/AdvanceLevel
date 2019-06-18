@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#232323">
+        <TextView
+            android:id="@+id/dialogNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="90dp"
+            />
+        <TextView
+            android:id="@+id/dialogPhoneTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Contact Number"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/dialogCallBtn"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/dia_call"
+            android:drawablePadding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:text="Mobile Call"
+            android:layout_gravity="start" />
+        <Button
+            android:id="@+id/dialogSMSBtn"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/dia_sms"
+            android:drawablePadding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Use SMS"
+            android:layout_gravity="start" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/dialogImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/man"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+
+</RelativeLayout>
